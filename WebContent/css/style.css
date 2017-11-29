@@ -1,0 +1,583 @@
+.logonboxpadding{
+	
+	padding:5%;
+}
+
+.imagebox .sapMFlexItem{
+	
+	width: 100%;
+}
+.logonButoncss .sapMBtnInner{
+	
+	background: #005EA5 !important;
+}
+
+.logopagebar .sapMBarMiddle{
+	
+	  text-align: left !important;
+	  margin-left:5%;
+}
+
+.changepassowrdbtcss .sapMBtnInner{
+	
+	  background: transparent;
+  border-width: 0px;
+  color: black;
+}
+
+ .changepassowrdbtcss .sapMBtn:hover>.sapMBtnHoverable{
+ background-color: transparent !important;
+ }
+
+
+#LogonPage--LogonPage-cont{
+	
+	overflow-y: hidden !important;
+}
+
+#mainPage--idAppControl-Master{
+	
+	width: 30%;
+}
+
+.searchInputClass-inner{
+	height: 70%;
+}
+
+#mainPage{
+	
+	overflow-y: auto;
+}
+
+.sapMBar{
+	  margin-top: -3px !important;
+	text-shadow: 0 0px 0 ;
+}
+
+.sapMBtn:hover>.sapMBtnHoverable {
+  background-image: none;
+  background-color: transparent;
+}
+
+html.sap-desktop .sapMBtn:focus>.sapMFocusable {
+   outline: 0px ; 
+   outline-offset: 0px; 
+}
+
+#mainPage--searchheadericon-img{
+	
+	color:white !important
+}
+
+#mainPage--iconnav-img{
+	
+	color:white !important
+}
+
+#mainPage--iconhome-img{
+	
+	color:white !important
+}
+
+.headertextcolor{
+	font-size: 18px;
+	color: white !important;
+}
+
+#__button0-content{
+	font-size: 16px;
+	color:white;
+}
+
+.sapMMenuBtn.sapMMenuBtnRegular .sapMBtnInner::after {
+  color: white;
+}
+
+.sapUiFormTitleH5 {
+  font-size: 13px;
+}
+
+.headermargin{
+	
+	margin-left: 0% !important;
+}
+
+.hmrclogocss{
+	width: 10rem;
+  height: 90%;
+}
+
+.datepickerheight{
+	
+	height: 2.5rem !important;
+}
+
+/*
+#mainPage--masterPage--id_fromDate-inner{
+	height: 2rem !important;
+}
+
+#mainPage--masterPage--id_fromDate-icon{
+	
+	line-height: 2rem !important;
+}
+*/
+
+.sapUiFormResGrid>div {
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+}
+
+/*
+#mainPage--masterPage--id_toDate-inner{
+	height: 2rem !important;
+}
+
+#mainPage--masterPage--id_toDate-icon{
+	
+	line-height: 2rem !important;
+}
+*/
+
+
+/*#mainPage--debtMasterPage--searchbt-inner{*/
+#mainPage--masterPage--searchbt-inner{
+	height: 2rem;
+	margin-top: -10px;
+  margin-left: -1px;
+}
+
+.TaxPayerBox{
+	
+	  margin-top: 12%;
+}
+
+.linkalign{
+	
+	  margin-top: 10%;
+}
+
+.sapMListTbl th{
+	
+	border-left: 1px solid #e5e5e5;
+}
+
+.Textpadding{
+	
+	padding-top: 5%;
+}
+
+#EditAgentDialog-scrollCont{
+	
+	padding: 0rem;
+}
+
+.alignitem{
+	
+	  text-align: right;
+}
+
+.sapUiFormEdit .sapMText{
+	
+	min-height: 0rem;
+}
+
+.sapUiForm .sapUiFormTitle{
+	
+	font-weight: bold;
+	
+}
+
+.vboxtextalign{
+	
+	margin-bottom: 10%;
+}
+
+.boldtextcss{
+	
+	font-weight: bold !important;
+}
+
+.vboxcss{
+	  margin: 0.7rem;
+  margin-top: -1%;
+}
+
+.sapUiFormM .sapUiFormContainerTitle>.sapUiFormTitle {
+  height: 2rem;
+  line-height: 1rem;
+}
+
+#view3--taxpayerdetailviewPage-intHeader{
+	
+	 background-color: black;
+}
+
+#view3--taxpayerdetailviewPage-title-inner{
+	color: white;
+	
+}
+
+.bgcolor{
+	
+	  background-color: #F2F2F2;
+}
+
+.sapUiTableCol, .sapUiTableTr>td{
+	border: 0px solid transparent; 
+	border-bottom: 1px solid #dddddd;
+	margin-top: 1px;
+	
+}
+
+.sapUiTableColRowHdr, .sapUiTableColHdr .sapUiTableCol, .sapUiTableColHdr .sapUiTableTr>td{
+	
+	border-right: 0px solid #dddddd; 
+}
+
+.sapUiTableRowHdr {
+  border-right: 0px solid #dddddd;
+  border-bottom: 0px solid #e5e5e5;
+ 
+}
+
+.datetextcss{
+	
+	    font-size: 13px !important;
+  color: rgb(157, 110, 119) !important;
+}
+
+.sapUiTableCell>.sapUiTv {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.paddingleftdetail{
+	
+	margin-left: -5% !important;
+}
+
+.paddingleftbar{
+	
+	padding-left: 4% !important;
+}
+
+.sapUiTable>.sapUiTableTbr{
+	
+	border-bottom: 0px solid transparent; 
+}
+
+.sapMPanelExpandablePart {
+  clear: both;
+  border: 1px solid black;
+  border-top: 0px solid #cccccc;
+}
+
+/*
+#mainPage--detailPage--taxpayerview1bar-BarLeft{
+	
+	padding-left: 4% !important;
+}
+
+#mainPage--detailPage--taxpayerview3bar-BarLeft{
+	
+	padding-left: 4% !important;
+}
+*/
+
+/*#mainPage--debtMasterPage--debtMasterPage-intHeader{*/
+#mainPage--masterPage--debtMasterPage-intHeader{
+	background-color: #005ea5 !important;
+}
+
+/*#mainPage--debtMasterPage--debtMasterPage-title-inner{*/
+#mainPage--masterPage--debtMasterPage-title-inner{
+	color: white;
+}
+
+.sapUiForm .sapUiFormTitle{
+	
+	color: #005EA5;
+}
+
+/*#mainPage--debtMasterPage--searchbt-img{*/
+#mainPage--masterPage--searchbt-img{	
+  background-color: #005ea5 !important;
+  color: white !important;
+  font-size: 16px !important;
+  line-height: 2rem;
+}
+
+/*#mainPage--debtMasterPage--inputPostcode-inner{*/
+#mainPage--masterPage--inputPostcode-inner{
+	height: 2rem;
+}
+
+#mainPage--masterPage--inputDistance-inner{
+	height: 2rem;
+}
+
+#mainPage--masterPage--inputMaxHits-inner{
+	height: 2rem;
+}
+
+.bgSecondaryButton.sapMBtn:not(.sapMBtnDisabled) .sapMBtnInner {
+    color: white;
+    font-size: 0.875rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E4E4E4;
+    background: rgba(0, 130, 59, 1);
+}
+
+.bgSecondaryButton.sapMBtn:hover > .sapMBtnInner.sapMBtnHoverable  {
+	background: rgba(0, 130, 59, 1);
+/*     color: #b2b2b2; */
+}
+
+/*----BG Secondary Button for Dark Background*/
+.bgSecondaryButtonDarkBg.sapMBtn:not(.sapMBtnDisabled)>.sapMBtnInner {
+    color: white;
+    font-size: 0.875rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    background: orange !important;
+}
+
+.sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12), .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12), .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12), .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12){
+	
+	padding-top:0rem;
+}
+.cssaligntext{
+	
+	  margin-top: 10%;
+  margin-left: -15%;
+}
+
+.vboxpadding{
+	
+	  margin-bottom: 15%;
+}
+
+.cssaligntextdropdown{
+	
+	  margin-top: 10%;
+ text-align: left !important
+}
+
+.sapMPanelContent:not(.sapMPanelBGTransparent) {
+  border-bottom: 1px solid black;
+}
+
+.sapUiFormEdit .sapMText{
+	
+	line-height: 1rem; 
+  padding-top: 0rem; 
+}
+
+.masterpagebgcolor{
+	
+	background-color: #E4E4E4;
+}
+
+.sapMBtnInner{
+	
+	background: #79BB97 ;
+	color: white;
+}
+
+
+.bgSecondaryButtonDarkBg.sapMBtn:hover>.sapMBtnHoverable.sapMBtnInner {
+    background:rgba(0, 130, 59, 1) !important;
+    color: rgba(0, 130, 59, 1) !important ;
+}
+
+.tablecolumncss{
+	
+	color: black;
+	font-size: 14px;
+}
+
+
+.bgSecondaryButtonPopUp.sapMBtn:not(.sapMBtnDisabled) .sapMBtnInner {
+    color: rgba(0, 130, 59, 1);
+    font-size: 0.875rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    background: rgba(0, 130, 59, 1);
+}
+
+.bgSecondaryButtonPopUp.sapMBtn:hover>.sapMBtnHoverable.sapMBtnInner {
+    background: rgba(0, 130, 59, 1) !important;
+    color: rgba(0, 130, 59, 1) !important ;
+}
+
+
+
+
+.idnumbercss{
+	
+	padding-top: 10% !important;
+	
+	text-align: left !important;
+}
+
+.textcsscolor{
+	color: #005EA5;
+}
+
+.sapUiFormResGrid.sapUiFormBackgrTranslucent>div {
+  background-color: transparent;
+}
+
+.sapUiFormEdit .sapMLnk{
+	
+	  line-height: 1rem;
+}
+
+
+#mainPage--detailPage--taxpayerDetailPage-intHeader{
+	background-color: black !important;
+	
+}
+
+#mainPage--detailPage--taxpayerDetailPage-title-inner{
+	
+	color: white;
+}
+
+/*#mainPage--debtMasterPage--masterViewBar{*/
+#mainPage--masterPage--masterViewBar{
+	background-color: #005ea5 !important;
+}
+
+/* .payemntallobt .sapMBtnContent{
+	font-size: 15px;
+	color: white;
+} */
+
+.bgSecondaryButton .sapMBtnText>.sapMBtnIcon{
+	
+	color: white !important;
+	  font-size: 18px;
+	  padding-top:3px;
+}
+
+
+.sapMTB-Transparent-CTX .sapMText{
+	
+	text-shadow: 0 0px 0 ;
+}
+
+.expandpanel{
+	background-color: black !important;
+}
+
+.collapsepanel{
+	
+	background-color: white !important;
+}
+
+.tabletextcss{
+	  word-spacing: 5px;
+	height:15px;
+}
+.sapMPanel .sapMPanelWrappingDiv .sapMPanelHdr, .sapMPanel .sapMPanelWrappingDivTb .sapMIBar.sapMTB {
+  padding-left: 0;
+  margin-left: 5rem;
+}
+
+.sapMPanelExpandableIcon{
+	font-size: 28px;
+	transform: translateY(-50%) rotate(90deg);
+	  width: 4rem;
+	  color: black;
+}
+
+.sapMPanelExpandableIconExpanded{
+	transform: translateY(-50%) rotate(270deg);
+	  width: 4rem;
+	font-size: 28px;
+	color: black;
+}
+.paymentbreakdowncss{
+	
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+}
+.sapUiTableTbr{
+	
+	height: 40px !important;
+}
+
+.custPanel{
+	margin-top:-1px;
+}
+.panelbox{
+	
+	  width: 100%;
+  padding: 5%;
+}
+.toolbarcss{
+	background-color: #005ea5 !important;
+	  border: 1px solid #cccccc !important;
+  padding-top: 1px;
+  height: 40px;
+}
+
+#view3--taxpayerdetailviewPage-cont{
+	
+	  width: 90%;
+  padding: 5%;
+}
+
+.sapMPanel>.sapMPanelHdr, .sapMPanelWrappingDiv, .sapMPanelWrappingDivTb{
+	border: 1px solid black;
+	
+}
+
+.sapMBtnInner{
+	
+	text-shadow: 0 0px 0 ;
+}
+
+#mainPage--masterPage--FindHighestDebt{
+	
+	margin-left: 10%;
+  width: 70%;
+}
+
+#mainPage--masterPage--FindHighestDebt-inner{
+	   font-size: 1rem;
+  padding-top: 0px;
+  /*height: 3.5rem;*/
+  height: 3rem;
+  /* font-weight: bold; */
+  padding-left: 38px;
+  padding-top: 2px;
+}
+
+.taxpayerbgcolor{
+	
+	background-color: white;
+}
+
+.titlecolor{
+	  font-size: 1rem;
+	color: white !important;
+}
+
+.sapMIBar.sapMHeader-CTX{
+	
+	background-color: black;
+}
+
+/*
+#mainPage--masterPage--ContractAccountid{
+	
+	margin-left: -24%;
+}
+*/

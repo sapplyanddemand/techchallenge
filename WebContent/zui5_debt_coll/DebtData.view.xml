@@ -1,0 +1,9 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="zui5_debt_coll.DebtData" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:u="sap.ui.unified">
+
+	<Page id="debtMapPage" style="background-color:blue">
+		
+	</Page>
+
+</core:View>

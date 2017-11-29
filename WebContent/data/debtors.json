@@ -1,0 +1,8 @@
+{
+	"DebtorsList": [
+		{ "DebtorName": "Alonso Borolli", "AdrLineOne": "265 Goring Road", "AdrPostCode": "BN12 4PA", "PhoneNumber": "123456", "Debt": "12000" },
+		{ "DebtorName": "Victoria Puzon", "AdrLineOne": "131-133 Clifton Rd", "AdrPostCode": "BN11 4DP", "PhoneNumber": "444 333", "Debt": "9000" },
+		{ "DebtorName": "Roger Van Zant", "AdrLineOne": "26 Warwick St", "AdrPostCode": "BN11 3DJ", "PhoneNumber": "666 777", "Debt": "5000" }
+	]
+
+}

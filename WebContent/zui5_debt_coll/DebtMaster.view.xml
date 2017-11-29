@@ -1,0 +1,91 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="zui5_debt_coll.DebtMaster" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+
+	<Page id="debtMasterPage" class="masterpagebgcolor">
+
+		<customHeader>
+
+			<Bar id="masterViewBar" class="paddingleftbar">
+				<contentLeft>
+					<Label text="Search options" class="titlecolor paddingleftbar"></Label>
+				</contentLeft>
+			</Bar>
+
+		</customHeader>
+
+		<content>
+
+			<f:SimpleForm id="simpleSearchForm" minWidth="1024"
+				maxContainerCols="3" editable="true" layout="ResponsiveGridLayout"
+				columnsL="2" columnsM="2" columnsS="2" class="editableForm">
+
+				<f:content>
+
+					<Text text="Postcode" class="column1 idnumbercss textcsscolor">
+						<layoutData>
+							<l:GridData span="L3 M3 S3" />
+						</layoutData>
+					</Text>
+
+					<FlexBox>
+						<items>
+							<Input id="inputPostcode" />
+							<!-- <Button id="searchbt" class="searchInputClass" icon="sap-icon://search"> 
+								<layoutData> <l:GridData span="L3 M3 S2" /> </layoutData> </Button> -->
+						</items>
+						<layoutData>
+							<l:GridData span="L3 M3 S8" />
+						</layoutData>
+					</FlexBox>
+
+					<Text text="Distance (km)" class="column1 idnumbercss textcsscolor">
+						<layoutData>
+							<l:GridData span="L3 M3 S3" />
+						</layoutData>
+					</Text>
+
+					<FlexBox>
+						<items>
+							<Input id="inputDistance" />
+						</items>
+						<layoutData>
+							<l:GridData span="L3 M3 S8" />
+						</layoutData>
+					</FlexBox>
+
+					<Text text="Max hits" class="column1 idnumbercss textcsscolor">
+						<layoutData>
+							<l:GridData span="L3 M3 S3" />
+						</layoutData>
+					</Text>
+
+					<FlexBox>
+						<items>
+							<Input id="inputMaxHits" />
+						</items>
+						<layoutData>
+							<l:GridData span="L3 M3 S8" />
+						</layoutData>
+					</FlexBox>
+
+				</f:content>
+
+			</f:SimpleForm>
+
+			<VBox class="vboxpadding">
+
+				<Button iconFirst="false" id="FindHighestDebt"
+					icon="sap-icon://navigation-right-arrow" text="Find Highest Debtors"
+					press="onFindPaymentsPressed" class="bgSecondaryButton" />
+			</VBox>
+
+			<VBox>
+				<List id="HighestDebtorsList" showNoData="false"/>
+			</VBox>
+
+		</content>
+
+	</Page>
+
+</core:View>

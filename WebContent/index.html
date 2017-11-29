@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m,sap.ui.commons" 
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1ZybVxZ80JWQfrIie-Yvcq_bVNBODNtI&sensor=false" type ="text/javascript"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+		
+		sap.ui.localResources("zui5_debt_coll");
+		var app = new sap.m.App({initialPage:"logonPage"});
+		var logonPage = sap.ui.view({id:"logonPage", viewName:"zui5_debt_coll.LogonPage", type:sap.ui.core.mvc.ViewType.XML});
+		app.addPage(logonPage);
+		var mainPage = sap.ui.view({viewName:"zui5_debt_coll.mainView", type:sap.ui.core.mvc.ViewType.XML});
+		app.addPage(mainPage);
+		app.placeAt("content"); 		
+		
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="zui5_debt_coll.mainView" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:u="sap.ui.unified">
+
+	<Page>
+		<customHeader>
+			<Bar>
+				<contentLeft>
+					<Label text="" class="titlecolor"></Label>
+					<Button id="iconnav" class="headermargin" icon="sap-icon://slim-arrow-left"
+						press="tologonpage" />
+					<Button id="iconhome" icon="sap-icon://home" />
+					<Image class="hmrclogocss" src="image/hmrclogo.png">
+
+					</Image>
+				</contentLeft>
+				<contentMiddle>
+                     <Label id="highestDebtInAreaLbl" text="Highest debt in area" class="headertextcolor"></Label >
+                </contentMiddle>
+			</Bar>
+		</customHeader>
+		<content>
+
+			<SplitApp id="idAppControl">
+
+				<masterPages>
+					<mvc:XMLView viewName="zui5_debt_coll.DebtMaster"
+						id="masterPage" />
+				</masterPages>
+				<detailPages>
+					<mvc:XMLView viewName="zui5_debt_coll.DebtMap"
+						id="detailPageMap" />
+					<mvc:XMLView viewName="zui5_debt_coll.DebtData"
+						id="detailPageData" />						
+				</detailPages>
+				
+			</SplitApp>
+		</content>
+	</Page>
+
+</core:View>
